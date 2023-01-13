@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #01025b;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    padding-left: 10%;
+    color: #fe00fe;
+}
+
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #defe47;
+    color: #fe00fe;
+    border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    float: right;
+    margin-left: 60%;
+    border: 0.3% solid #defe47;
+  }
+
+  .kanbanBoardCard {
+    box-shadow: 0 4px 8px 0 black;
+    box-sizing: content-box;
+    height: 15vh;
+    width: 25vw;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 10px;
+    background-color: #05d9e894;
+    float: left;
+  }
+
+  .kanbanBoardCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  h3 {
+    margin-top: 3%;
+    margin-left: 45%;
+    text-align: center;
+    color: whitesmoke;
+    float: left;
+  }
+
+  .taskAdd {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+main {
+    display: flex;
+    flex-direction: inline-row;
+}
+
+.taskcard {
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    color: black;
+}
