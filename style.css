@@ -33,8 +33,7 @@ header {
 
   .kanbanBoardCard {
     box-shadow: 0 4px 8px 0 black;
-    box-sizing: content-box;
-    height: 15vh;
+    height: fit-content;
     width: 25vw;
     margin-left: 5vw;
     margin-bottom: 5vw;
@@ -49,8 +48,8 @@ header {
 
   h3 {
     margin-top: 3%;
-    margin-left: 45%;
-    text-align: center;
+    margin-left: 5%;
+    display: block;
     color: whitesmoke;
     float: left;
   }
@@ -66,8 +65,22 @@ main {
     flex-direction: inline-row;
 }
 
-.taskcard {
-    box-sizing: content-box;
+.taskCard {
+    height: fit-content;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
     background-color: whitesmoke;
     color: black;
+    padding: 1% 1% 1% 1%;
+    word-wrap: break-word;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+
 }
+
+.taskText {
+ display: block;
+}
+
